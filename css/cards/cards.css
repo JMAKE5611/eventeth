@@ -1,0 +1,94 @@
+.main {
+  padding-top: 10px;
+  background-color: #0e1629;
+}
+
+.cards-wrapper {
+  display: flex;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #131e38;
+  padding: 35px 40px 20px;
+  border-radius: 35px;
+}
+
+.card:not(:nth-child(2)) {
+  margin-right: 30px;
+}
+
+.card__title {
+  font-weight: bold;
+  font-size: 17px;
+  padding-bottom: 10px;
+}
+
+.bonus__link {
+  padding: 12px 25px;
+  width: 50px;
+}
+
+.card__title-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.card__img {
+  width: 30px;
+}
+
+.card__description {
+  padding: 20px 0 20px 0;
+  line-height: 20px;
+  font-weight: normal;
+}
+
+.cards_wrapper--grid {
+  display: grid;
+  grid-template-areas:
+    'example bonuses'
+    'example bonuses'
+    'example onetime';
+  grid-row-gap: 20px;
+  padding-top: 30px;
+}
+
+.example {
+  border: 1px solid rgba(84, 97, 125, 0.9);
+  grid-area: example;
+}
+
+.bonuses {
+  border: 1px solid rgba(84, 97, 125, 0.9);
+  grid-area: bonuses;
+  text-align: center;
+}
+
+.onetime {
+  grid-area: onetime;
+  margin: 0 !important;
+  background-color: #162341;
+  border-radius: 30px;
+}
+.example_description {
+  margin: 10px;
+}
+
+.card__example {
+  font-size: 16px;
+}
+
+.card__example:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.card__title--onetime {
+  text-align: center;
+  font-weight: 700;
+  color: #54617d;
+  font-size: 17px;
+}

@@ -1,0 +1,36 @@
+.speaker__item {
+  text-align: center;
+  z-index: 2;
+  position: absolute;
+  right: 0;
+  top: 135px;
+  background-color: #1c2d52;
+  border: 1px solid #54617d;
+  border-radius: 30px;
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.speaker-item__image-wrapper {
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 111px;
+  height: 120px;
+  overflow: hidden;
+}
+
+.speaker-item__image {
+  object-fit: cover;
+}
+
+.speaker-item__title {
+  font-size: 19px;
+  font-weight: bold;
+  padding: 12px 0 24px 0;
+}
+
+.speaker-item__btn {
+  padding: 7px 20px;
+}

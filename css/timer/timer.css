@@ -1,0 +1,38 @@
+.timer-wrapper {
+  max-width: 450px;
+  padding-bottom: 20px;
+}
+
+.timer {
+  background-color: #0a1127;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.timer__block {
+  flex: 1;
+  text-align: center;
+  position: relative;
+}
+
+.timer__block:not(:last-child):after {
+  content: ':';
+  font-size: 32px;
+  top: 25%;
+  position: absolute;
+  left: 100%;
+  transform: translate(-50%, -50%);
+}
+
+.timer__text {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.timer__name {
+  color: #727980;
+  font-size: 12px;
+  padding: 5px;
+}

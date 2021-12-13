@@ -1,0 +1,198 @@
+@media (max-width: 950px) {
+  .header__features {
+    margin-top: 30px;
+  }
+
+  .header-reversed-mobile {
+    display: block;
+  }
+
+  .header-reversed-mobile .btn {
+    margin: 10px;
+    padding: 12px 35px;
+  }
+
+  .header__bnt-wrapper {
+    display: none;
+  }
+
+  .card:not(:nth-child(2)) {
+    margin: 0;
+  }
+
+  .burger {
+    display: flex;
+  }
+
+  .navbar__list {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    flex-direction: column;
+    background-color: #0e1629;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+  }
+
+  .navbar__item {
+    padding: 20px;
+    font-size: 24px;
+  }
+
+  .navbar__item:not(:last-child) {
+    margin: 0;
+  }
+
+  .navbar__list--active {
+    display: flex;
+  }
+
+  .navbar-item--join-mobile {
+    display: flex;
+  }
+
+  .navbar-item--join-pc {
+    display: none;
+  }
+
+  .card:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  .cards-wrapper {
+    display: block;
+  }
+
+  .cards_wrapper--grid {
+    display: block;
+  }
+
+  .header__content {
+    display: block;
+  }
+
+  .header__text {
+    padding: 20px 0;
+  }
+
+  .header__features {
+    height: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .crypto__list {
+    left: 0;
+    right: 0;
+    bottom: -40px;
+    top: auto;
+  }
+
+  .capability__list {
+    border: none;
+    top: 5px;
+    left: 0;
+  }
+
+  .speaker__item {
+    top: 2px;
+    right: 0;
+    left: 40%;
+  }
+
+  .crypto__list,
+  .capability__list,
+  .speaker__item {
+    position: absolute;
+  }
+
+  .crypto__text {
+    margin-left: auto;
+  }
+
+  .capability__item {
+    font-size: 12px;
+    padding: 8px 0;
+    font-weight: 700;
+  }
+
+  .faq__item:hover .faq__answer,
+  .faq__item:hover .faq__question {
+    opacity: 1;
+  }
+
+  .faq__answer {
+    position: static;
+    opacity: 1;
+    height: auto;
+  }
+
+  .faq__question {
+    opacity: 1;
+  }
+
+  .footer {
+    display: none;
+  }
+}
+
+@media (max-width: 458px) {
+  .qrcode-wrapper {
+    display: block;
+    text-align: center;
+  }
+
+  .qrcode__img-wrapper {
+    padding: 20px 10px;
+    margin: 0;
+  }
+
+  .qrcode__img {
+    width: 90px;
+  }
+}
+
+@media (max-width: 768px) {
+  .transaction__item {
+    padding: 5px 15px;
+  }
+
+  .transaction__table td {
+    font-size: 8px;
+  }
+
+  .transaction__grid-item {
+    display: grid;
+    font-size: 12px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+      'from text to'
+      'time text value';
+  }
+
+  .transaction__from {
+    grid-area: from;
+  }
+
+  .transaction__to {
+    grid-area: to;
+  }
+
+  .transaction__time {
+    grid-area: time;
+  }
+
+  .transaction__text {
+    grid-area: text;
+  }
+
+  .transaction__value {
+    grid-area: value;
+  }
+}
